@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adnane's Portfolio</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <nav>
+        <a href="#" class="logo">Adnane Ahmimou</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+            <li><a href="#projects" onclick="toggleMenu();">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact Us</a></li>
+        </ul>
+
+    </nav>
+
+    <section id="home">
+        <div class="home-text">
+            <h1>Hy, I'm <br>Adnane <span>Ahmimou</span><br>Web Developer</h1>
+
+            <a href="#contact">Hire me</a>
+        </div>
+
+        <div class="home-img">
+            <img src="/images/profile.png" alt="">
+        </div>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/adnane-ahmimou" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+            <a href="https://github.com/AdnaneAhmimou" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://web.facebook.com/profile.php?id=100005980517234" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="https://www.instagram.com/adnane_ahmimou/" target="_blank"><i class='bx bxl-instagram'></i></a>
+            <a href="https://twitter.com/adnane_ahmimou" target="_blank"><i class='bx bxl-twitter'></i></a>
+        </div>
+        
+    </section>
+
+    <section id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+            <p>Get to know me</p>
+        </div>
+
+        <div class="about-content">
+            <div class="about-text">
+                <!-- <h1>I'm Adnane</h1> -->
+                <br>
+                <p>A junior developer based in Casablanca, Morocco, I'm inspired by the boundless possibilities of
+                    technology. With a strong coding background,
+                    I have a wide range of skills in web development.
+                    I thrive on tackling challenges, paying close attention to detail, and bringing fresh ideas to
+                    problem-solving.
+                    My commitment to learning and innovation drives me to use technology for the greater good,
+                    aiming to create a better future for our community.</p>
+                <a href="/images/Adnane_Ahmimou_resume(new version).pdf" target="_blank">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="heading">
+            <h2>Services</h2>
+            <p>What I can do for you</p>
+        </div>
+        <div class="services-content">
+            <div class="box">
+                <h1>Frontend Projects</h1><br>
+                <p>I offer frontend projects crafted with precision and creativity using React. Whether you need a sleek
+                    and modern website or a dynamic web application, I ensure an engaging user experience that aligns
+                    with your vision and goals.</p>
+            </div>
+            <div class="box">
+                <h1>Backend Projects</h1><br>
+                <p>I specialize in backend projects built on Node.js, Express, and MongoDB. From RESTful APIs to complex
+                    database architectures, I deliver scalable and efficient backend systems that drive your
+                    application's performance and functionality.</p>
+            </div>
+            <div class="box">
+                <h1>Cloud Deployment</h1><br>
+                <p>I provide expertise in cloud deployment using Amazon Web Services (AWS). I offer seamless integration
+                    and deployment of your applications to the cloud, ensuring scalability, reliability, and security.
+                    Whether you're starting a new project or migrating an existing one, I provide comprehensive AWS
+                    solutions tailored to your needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="heading">
+            <h2>Projects</h2>
+            <p>My recent work</p>
+        </div>
+        <div class="projects-content">
+            <div class="box">
+                <img src="/images/lpee.png" alt="lpee-project"><br><br>
+                <h1>LPEE Mobile App</h1>
+                <p>The LPEE Mobile App was designed to facilitate the company's work by extracting client statements
+                    from their database. It provides a seamless and efficient way to gather information, enhancing the
+                    company's data collection process.</p>
+            </div>
+            <div class="box">
+                <img src="/images/recruit-me.png" alt="recruit-me-project"><br><br>
+                <h1>Recruit Me Website</h1>
+                <p>Recruit-Me is a website designed to help individuals find jobs. With its user-friendly interface and
+                    powerful search features, Recruit-Me simplifies the job search process, connecting users with
+                    relevant job opportunities.</p>
+            </div>
+            <div class="box">
+                <img src="/images/educonnet.png" alt="educonnect-project"><br><br>
+                <h1>Education App</h1>
+                <p>EduConnect is an education app aimed at providing educational content to children in Africa. It
+                    offers a wide range of educational resources and materials accessible through mobile phones, helping
+                    to improve access to quality education in the region.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="heading">
+            <h2>Contact Me</h2>
+            <p>Leave a message here</p>
+        </div>
+        <div class="contact-content">
+            <div class="contact-form">
+                <form action="">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send" class="contact-button">
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
