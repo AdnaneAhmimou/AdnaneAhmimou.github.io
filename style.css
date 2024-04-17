@@ -405,7 +405,17 @@ ul li a:hover{
         line-height: 1.5rem;
         
     }
+    .contact-form{
+        width: 300px;
+    }
+    .contact-form form input, .contact-form form textarea{
+        font-size: 12px;
+    }
+    .contact-form form textarea{
+        height: 150px;
+    }
+    .contact-button{
+        max-width: 80px;
+    }
 
-
-    
 }
